@@ -1,0 +1,244 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+li, a, button{
+    text-decoration: none;
+    color: rgb(241, 90, 90);
+    font-weight: 400;
+}
+#language{
+    width: 90px;
+    height: 30px;
+    font-size: 1.1em;
+    font-weight: normal;
+    padding-left: 10px;
+    background-color:#1b1a1ab2;
+    border: 1px solid rgba(255, 255, 255, 0.432);
+    border-radius: 5px;
+    color: white;
+}
+.sign-in,.getStart{
+    padding: 8px 15px;
+    font-size: 0.9em;
+    background-color: rgb(194, 21, 21);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.sign-in:hover{
+    background-color: rgb(226, 8, 8);
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 10%;
+}
+.netflix-nav-icon{
+    margin-left: auto;
+    cursor: pointer;
+}
+.page1{
+    background-image: url("./Images/NetFlix\ Image.jpg");
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 650px;
+    backdrop-filter: brightness(40%);
+    position: relative;
+}
+.page1::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.7);
+    z-index: 0;
+}
+.netflixImage{
+    position: relative;
+    z-index: 1;
+
+}
+h1{
+    font-size: 4em;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    padding-top: 100px;
+}
+#price,.createAccountPara{
+    color: white;
+    padding-left: 520px;
+    padding-top: 25px;
+    font-size: 1.2em;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.createAccountPara{
+    padding-left: 400px;
+    font-size: 1em;
+}
+#email-address{
+    width: 400px;
+    height:60px;
+    background-color: rgba(34, 34, 34, 0.322);
+    backdrop-filter: blur(5px);
+    border-radius: 5px;
+    border: 1px solid gray;
+    margin-left: 360px;
+    font-size: 1.2em;
+    padding-left: 20px;
+    color: gray;
+    margin-top: 20px;
+}
+.getStart{
+    padding: 15px 35px;
+    font-size: 1.5em;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: normal;
+    border-radius: 4px;
+
+}
+
+/*page 1.1 section */
+section{
+    background-color: black;
+}
+.page1-1{
+    width: 100%;
+    height: 50px;
+}
+.trendingTitle{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    padding-left: 200px;
+    color: white;
+
+}
+.selectProperty{
+    width: 90px;
+    height: 40px;
+    padding-left: 10px;
+    font-size: 1em;
+    padding-right: 10px;
+    margin-top: 20px;
+    background-color:#1b1a1ab2;
+    color: white;
+    border: 1px solid rgba(255, 255, 255, 0.493);
+    border-radius: 5px;
+}
+.moviesProperty{
+    width: 120px;
+    margin-left: 20px;
+}
+.globelProperty{
+    margin-left: 200px;
+
+}
+.arrow{
+    transform: rotate(180deg);
+}
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 24;
+  transform: rotate(90deg);
+  
+
+}
+/* page 2 */
+
+.page2{
+    width: 70%;
+    height: 280px;
+    position: relative;
+    overflow: hidden;
+    padding: 0px;
+    margin-left: 15%;
+    margin-top: 30px;
+    background-color: black;
+    z-index: 5;
+}
+img{
+    border-radius: 10px;
+    
+}
+.productContainer{
+    display: flex;
+    gap: 20px;
+    padding: 0 0vw;
+    overflow-x: auto;
+    scroll-behavior: smooth;
+}
+.productContainer::-webkit-scrollbar{
+    display:none;
+}
+.slide{
+    position: absolute;
+    z-index: -1;
+    background-color: black;
+}
+.imageContainer{
+    flex: 0 0 auto;
+    width: 200px;
+    height: auto;
+    overflow: hidden;
+    position: relative;
+    cursor: pointer;
+}
+.productContainer{
+    overflow-x: hidden;
+}
+.buttonClick{
+    width: 100px;
+    height: 50px;
+}
+.leftButton,.rightButton{
+    border: 1px solid black;
+    width: 2.5vw;
+    height: 130px;
+    position: absolute;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:#564d4dea;
+    color: wheat;
+    cursor: pointer;
+    margin-top: 66%;
+    border-radius: 15px;
+    overflow: hidden;
+}
+.leftButton{
+    left: 12%;
+    transform: rotate(180deg);
+}
+
+.rightButton{
+    right: 12%;
+}
+
+.trending-number {
+    display: flex;
+    top: 0px;
+    left: 0px;
+    font-size: 6em;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    z-index: 10;
+    -webkit-text-stroke: 2px white;
+    margin-top: 170px;
+    width: 2px;
+    font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
+}
+

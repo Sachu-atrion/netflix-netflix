@@ -1,0 +1,190 @@
+.page3{
+    width: 100%;
+    height: 450px;
+    border: 1px solid rgb(0, 0, 0);
+    background-color: black;
+}
+h2{
+    font-weight: 450;
+}
+.joinHeading{
+    margin-left: 10%;
+    color: white;
+    margin-top: 50px;
+}
+.reasons-page{
+    width: 83%;
+    height: 300px;
+    margin-left: 10%;
+    margin-top: 20px;
+}
+.table2{
+    background-image: linear-gradient(149deg, rgb(25, 34, 71) 0%, rgb(33, 14, 23) 96.86%);
+}
+.table1{
+    margin-left: 15px;
+    background-image: linear-gradient(149deg, rgb(25, 34, 71) 0%, rgb(33, 14, 23) 96.86%);
+}
+.reasons-content{
+    width: 264px;
+    height: 300px;
+
+    border-radius: 15px;
+    display: inline-table;
+}
+#paraGraph{
+    width: 262px;
+    height: 100px;
+    font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
+    padding-left: 15px;
+    color: rgba(255, 255, 255, 0.747);
+}
+h3{
+    padding: 20px 15px;
+    font-size: 1.5em;
+    font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
+    color: white;
+    font-weight: 450;
+}
+svg{
+    margin-left: 170px;
+    margin-top: 50px;
+}
+.icon{
+    margin-left: 170px;
+}
+.icon svg {
+    width: 72px;
+    height: 72px;
+    margin: 0 auto;
+}
+.icon3{
+    margin-left: 170px;
+}
+.icon3 svg{
+    margin: 0 auto;
+    margin-top: 15px;
+}
+.page4{
+    width: 100%;
+    height: 650px;
+    background-color: black;
+}
+.Asked-heading{
+    color: rgb(255, 255, 255);
+    margin-left: 14%;
+    padding: 10px;
+    font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
+}
+.div-content{
+    width: 70%;
+    margin-left: 15%;
+    padding: 15px 25px;
+    margin-top: 10px;
+    background-color:rgb(45, 45, 45) ;
+    color: rgba(255, 255, 255, 0.781);
+}
+#span1{
+    padding-left: 700PX;
+    font-size: 50px;
+}
+#span2{
+    padding-left: 553px;
+    font-size: 50px;
+}
+#span3{
+    padding-left: 653px;
+    font-size: 50px;
+}
+#span4{
+    padding-left: 685px;
+    font-size: 50px;
+}
+#span5{
+    padding-left: 567px;
+    font-size: 50px;
+}
+#span6{
+    padding-left: 625px;
+    font-size: 50px;
+}
+.page5{
+    width: 100%;
+    height: 650px;
+    background-color: black;
+}
+.footer-para{
+    padding-top: 60px;
+    text-align: center;
+    color: white;
+}
+#footer-email{
+    width: 580px;
+    margin-left: 280px;
+    height: 60px;
+    margin-top: 20px;
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color: rgba(59, 59, 59, 0.623);
+    color: rgb(255, 255, 255);
+    font-size: 1.2em;
+    padding-left: 15px;
+}
+.footer-button{
+    width: 190px;
+    height: 60px;
+    margin-left: 10px;
+    font-size: 1.6rem;
+    background-color: rgb(255, 0, 0);
+    border: none;
+    border-radius: 5px;
+    color: white;
+}
+.questions{
+    padding-left: 150px;
+    padding-top: 60px;
+}
+.footer-links{
+    width: 70%;
+    height: 200px;
+    margin-left: 150px;
+    margin-top: 50px;
+}
+#footer-contact{
+    margin-left: 8px;
+    text-decoration: underline;
+}
+.footer-links1,.footer-links2,.footer-links3,.footer-links4{
+    border: 1px solid black;
+    width: 13%;
+    height: 100%;
+    text-decoration: underline;
+    display: inline-table;
+    font-size: 1em;
+    text-decoration-color:   rgba(255, 255, 255, 0.74);;
+}
+.footer-links2,.footer-links3,.footer-links4{
+    margin-left: 100px;
+}
+.footer-links1 a,.footer-links2 a,.footer-links3 a,.footer-links4 a{
+    line-height: 30px;
+}
+#footer-language{
+    width: 100px;
+    height: 30px;
+    font-size: 1.1em;
+    font-weight: normal;
+    background-color:#1b1a1ab2;
+    border: 1px solid rgba(255, 255, 255, 0.432);
+    border-radius: 4px;
+    color: white;
+    padding-left: 10px;
+    margin-left: 150px;
+}
+#footer-netflix{
+    margin-left: 150px;
+    margin-top: 30px;
+}
+.footer-links1 a,.footer-links2 a,.footer-links3 a,.footer-links4 a,#footer-contact,.questions,#footer-netflix{
+    color: rgba(255, 255, 255, 0.589);
+}
